@@ -13,8 +13,8 @@
             <mxPoint x="240" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0T6q6VEXOdXNynGkeX3k-3" value="advance_photons" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-30" width="120" height="60" as="geometry" />
+        <mxCell id="0T6q6VEXOdXNynGkeX3k-3" value="create_axions_primakoff" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="-30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0T6q6VEXOdXNynGkeX3k-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" source="UwqTTRp8pMkoXefU89mr-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
