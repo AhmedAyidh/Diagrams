@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="VRbGhbcaT4jTud78ZenN">
-    <mxGraphModel dx="3503" dy="2549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1987" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,6 +331,90 @@
         </mxCell>
         <mxCell id="xAQa2vmBrpAdzw5jYy5Q-3" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;fillColor=#2D9C5E;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.check" parent="1" vertex="1">
           <mxGeometry x="1480" y="1120" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-1" value="m_acompton" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1854" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-2" value="os-axions-define" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1416" y="1784" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-3" value="os-photons-define" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1416" y="1934" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-4" value="os-particles-qed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1416" y="1634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-5" value="&lt;div&gt;&lt;div&gt;use m_acompton&amp;nbsp;&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Section 1:&lt;/div&gt;&lt;div&gt;In &quot;t_photons&quot;, setting (num,energy,weigh)_axions,&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------&lt;/div&gt;Section 2:&lt;div&gt;Initializing acompton&amp;nbsp;axion/photon Creation Info&lt;/div&gt;&lt;div&gt;-------&lt;/div&gt;&lt;div&gt;Section 3:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Initializing&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(num,energy,weigh)_axions&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-------&lt;/div&gt;&lt;div&gt;Section 4:&amp;nbsp;&lt;/div&gt;&lt;div&gt;setting up vdf with ion density for&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;acompton&lt;/span&gt;&lt;/div&gt;&lt;div&gt;------&lt;/div&gt;&lt;div&gt;Section 5:&lt;/div&gt;&lt;div&gt;Function: get_energy_acompton&amp;nbsp;&lt;/div&gt;&lt;div&gt;-------&lt;/div&gt;&lt;div&gt;Section 6:&lt;/div&gt;&lt;div&gt;Reading/Writing checkpoint files&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="1864" width="270" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-6" value="&lt;div&gt;use m_acompton&amp;nbsp;&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;Section 1:&lt;div&gt;&quot;procedurizing&quot;&amp;nbsp;init_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;acompton&lt;/span&gt;&lt;/div&gt;&lt;div&gt;------&lt;/div&gt;&lt;div&gt;Section 2:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Calling init_acompton&amp;nbsp;to&amp;nbsp;Read acompton&amp;nbsp;bloc in the input deck&lt;/div&gt;&lt;div&gt;------&lt;/div&gt;&lt;div&gt;Section 3:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Subroutine&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;init_&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;acompton&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="1564" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-7" value="Repetition of the same lines in os-photons-define" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="1774" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-8" value="os-photons-diagnostics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1426" y="2304" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-9" value="os-photons&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22os-photons-diagnostics%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221020%22%20y%3D%22-10%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22os-photons-diagnostics%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221020%22%20y%3D%22-10%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="986" y="2304" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-10" value="os-qed-coulomb&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22os-photons-diagnostics%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221020%22%20y%3D%22-10%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22os-photons-diagnostics%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221020%22%20y%3D%22-10%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="2074" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFBT5RQmRZLoWsospSP8-1" target="JFBT5RQmRZLoWsospSP8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1485" y="1834" as="sourcePoint" />
+            <mxPoint x="1535" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFBT5RQmRZLoWsospSP8-1" target="JFBT5RQmRZLoWsospSP8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1485" y="1834" as="sourcePoint" />
+            <mxPoint x="1535" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFBT5RQmRZLoWsospSP8-1" target="JFBT5RQmRZLoWsospSP8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1485" y="1834" as="sourcePoint" />
+            <mxPoint x="1535" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-14" value="Section 1:&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;acompton&amp;nbsp;&lt;/span&gt;General Information&lt;/div&gt;&lt;div&gt;------&lt;/div&gt;&lt;div&gt;Subsequent sections:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;acompton&amp;nbsp;&lt;/span&gt;defining axes, tcs, and cdf as well as cdf, cs, probability, and spec subroutines.&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2044" width="175" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-15" value="Section 1:&amp;nbsp;&lt;div&gt;Publicizing &quot;create_axions_acompton&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;------&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Section 2:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Subroutine &quot;create_axions_acompton&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Section 3:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Calling &quot;create_axions_acompton&lt;span style=&quot;background-color: initial;&quot;&gt;&quot; in &quot;&lt;b&gt;advance_photons&lt;/b&gt;&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="2264" width="175" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-16" value="Section 1:&amp;nbsp;&lt;div&gt;Interpolation of Ion density of acompton&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;------&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Section 2:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;diagnosing number of axions, their energy, and weighs.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="2275.25" width="175" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFBT5RQmRZLoWsospSP8-10" target="JFBT5RQmRZLoWsospSP8-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1255" y="2204" as="sourcePoint" />
+            <mxPoint x="1305" y="2154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFBT5RQmRZLoWsospSP8-3" target="JFBT5RQmRZLoWsospSP8-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1255" y="2204" as="sourcePoint" />
+            <mxPoint x="1305" y="2154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JFBT5RQmRZLoWsospSP8-3" target="JFBT5RQmRZLoWsospSP8-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1255" y="2204" as="sourcePoint" />
+            <mxPoint x="1305" y="2154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-20" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;fillColor=#2D9C5E;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.check" vertex="1" parent="1">
+          <mxGeometry x="950" y="1830" width="30" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="JFBT5RQmRZLoWsospSP8-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2148" y="1419" as="sourcePoint" />
+            <mxPoint x="-310" y="1419" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
